@@ -1,0 +1,45 @@
+*{
+  box-sizing: border_box;
+}
+body{
+  background: grey;
+}
+.nameTag{
+  font-family: sans-serif;
+  background: red;
+  border-radius: 20px;
+  width: 450px;
+  margin-right:auto;
+  margin-left:auto;
+  box-shadow: 10px 10px 3px rgba(0,0,0,.7);
+}
+.nameTagTitle{
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+.nameTagName{
+  padding: 10px; 
+  background: white;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;\
+  font-weight: bold;
+}
+.nameTagFooter{
+  padding:24px; 
+}
+.nameTag h1,
+.nameTag h2{
+  margin: 4px;
+}
+form{
+  text-align: center;
+  padding: 30px 0;
+}
+input#name{
+  text-align:center;
+  font-size:24px;
+  padding:3px 0;
+  box-shadow: inset 2px 2px 8px rgba(0,0,0,.7);
+}
